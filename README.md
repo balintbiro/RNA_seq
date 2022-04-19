@@ -4,7 +4,16 @@
 Setting up the environment:
 ---
 ```bash
+conda create --name rna_seq_env
+conda activate rna_seq_env
 
+mkdir code data results
+
+conda install -c bioconda fastqc
+conda install -c bioconda hisat2
+conda install -c bioconda htseq
+conda install -c anaconda pandas
+```
 
 References and tutorials:
 ---
